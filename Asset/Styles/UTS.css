@@ -91,6 +91,35 @@ body {
   color: rgb(248, 239, 239);
 }
 
+.con1 {
+    display: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(43, 64, 65);
+    color: rgb(248, 239, 239);
+}
+
+.con2 {
+    display: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(43, 64, 65);
+    color: rgb(248, 239, 239);
+}
+
+.con3 {
+    display: right;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(43, 64, 65);
+    color: rgb(248, 239, 239);
+}
 
 .footer {
   background-color: #81edf9;

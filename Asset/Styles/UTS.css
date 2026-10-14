@@ -7,8 +7,8 @@ body {
 }
 
 .header {
-  background-color: rgb(155, 180, 236);
-  padding: 30px;
+  background-color: rgb(55, 67, 92);
+  padding: 10px;
   text-align: flex;
 }
 
@@ -32,9 +32,65 @@ body {
 }
 
 .nav {
-  background-color: rgb(161, 178, 218);
-  text-align: flex;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
 }
+
+.nav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+
+.content h2 {
+  background-color: rgb(147, 179, 248);
+  padding: 10px;
+  text-align: flex;
+  color: rgb(66, 59, 59);
+}
+
+.content p {
+  padding: 25px;
+  text-align: flex;
+  color: rgb(0, 0, 0);
+  background-color: rgb(205, 242, 244);
+}
+
+.content li {
+  padding: 10px;
+  text-align: flex;
+  color: rgb(0, 0, 0);
+}
+
+.boxcontainer {
+  display: middle;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(6, 87, 91);
+  color: rgb(248, 239, 239);
+}
+
+.container {
+  display: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(43, 64, 65);
+  color: rgb(248, 239, 239);
+}
+
 
 .footer {
   background-color: #81edf9;
